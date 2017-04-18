@@ -1,0 +1,36 @@
+/**index.wxss**/
+
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 200px;
+}
+
+/*page*/
+page {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+.header{
+display: flex;
+justify-content: center;/*居中*/
+border-bottom: 1rpx solid #ccc;
+margin-bottom: 10rpx;
+}

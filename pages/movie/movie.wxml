@@ -1,0 +1,17 @@
+
+<!--pages/movie/movie.wxml-->
+<scroll-view scroll-y="true">
+  <view class="meta clear">
+    <view id="img">
+      <image class="poster" src="{{movie.images.large}}" background-size="cover"></image>
+    </view>
+    <text class="title">{{movie.title}}({{movie.year}})</text>
+    <text class="info">评分：{{movie.rating.average}}</text>
+    <text class="info">导演：<block wx:for="{{movie.directors}}">{{item.name}}</block>
+    </text>
+    <text class="info">主演：<block wx:for="{{movie.casts}}">{{item.name}} </block>
+    </text>
+    <text class="content">摘要：
+    {{movie.summary}}</text>
+  </view>
+</scroll-view>
