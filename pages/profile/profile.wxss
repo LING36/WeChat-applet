@@ -1,1 +1,27 @@
 /* pages/profile/profile.wxss */
+.classname{
+    width: 200rpx;
+    height: 300rpx;
+    /*border: 1rpx solid red;*/
+    margin: 0rpx auto;
+}
+.classname image{
+    width: 100%;
+    height: 100%;
+}
+.box{
+    width: 100%;
+    text-align: center;
+}
+.box view{
+    text-align: center;
+    line-height: 60rpx;
+    padding: 20rpx;
+    background: pink;
+    border-bottom: 1rpx solid plum;
+    color: #333;
+}
+.box view:hover{
+    font-size: 40rpx;
+    color: red;
+}
